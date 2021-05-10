@@ -2,7 +2,7 @@ A minimal working example for https://github.com/TypeStrong/ts-loader/issues/129
 
 ## How to test the failing example
 
-1. make sure ts-loader 9.1.2 is installed (review and edit package.json)
+1. make sure ts-loader 9.1.2 is configured (review and edit package.json)
 2. npm install
 3. npm run build
 
@@ -17,7 +17,7 @@ ERROR in /path/to/project/ts-loader-alias-issue/public/js/query.ts
 
 ## How to test the working example
 
-1. make sure ts-loader 8.0.18 is installed (review and edit package.json)
+1. make sure ts-loader 8.0.18 is configured (review and edit package.json)
 2. npm install
 3. npm run build
 
