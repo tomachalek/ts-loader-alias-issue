@@ -1,0 +1,24 @@
+{
+  "name": "kontext",
+  "description": "An advanced web front-end for the Manatee-open corpus search engine",
+  "license": "GPL-2.0",
+  "version": "0.16.0-beta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czcorpus/kontext"
+  },
+  "bugs": "https://github.com/czcorpus/kontext/issues",
+  "homepage": "https://github.com/czcorpus/kontext",
+  "devDependencies": {
+    "merge": "~2.1.1",
+    "ts-loader": "^9.1.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-merge": "^5.7.3"
+  },
+  "scripts": {
+    "start": "launch",
+    "build": "node node_modules/webpack/bin/webpack.js --config webpack.js"
+  }
+}
